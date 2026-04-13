@@ -1,1 +1,1 @@
-# PRAKTIKUM-Algoritma-StrukturData-MuhammadKurniawanPasya
+# Praktikum
