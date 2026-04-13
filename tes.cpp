@@ -1,4 +1,0 @@
-struct tes
-{
-    /* data */
-};
