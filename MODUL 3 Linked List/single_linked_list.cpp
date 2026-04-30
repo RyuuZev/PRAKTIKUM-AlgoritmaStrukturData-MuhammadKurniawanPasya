@@ -170,3 +170,20 @@ int SingleLinkedList::set(int idx) {
 
     return -1;
 } 
+
+// clear
+
+void SingleLinkedList::clear() {
+    if (is_empty()) return;
+
+    Node* current = head;
+    Node* nextNode;
+
+    do {
+        nextNode = current->next;
+        delete current;
+        current = nextNode;
+    } while (current != head);
+
+    head = tail = nullptr;
+}
